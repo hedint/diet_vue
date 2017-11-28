@@ -7,6 +7,7 @@ tmp
 # Environment variables, never commit this file
 .env
 
+.idea
 # Lock files
 package-lock.json
 yarn.lock
