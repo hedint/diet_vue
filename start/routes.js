@@ -16,3 +16,6 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+Route.get('/', function * (request, response) {
+  response.download(Helpers.resourcesPath('public/index.html'))
+});
